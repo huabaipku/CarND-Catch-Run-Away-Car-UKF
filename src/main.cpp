@@ -105,10 +105,30 @@ int main()
           
     	  ukf.ProcessMeasurement(meas_package_R);
 
-	  target_x = ukf.x_[0];
-	  target_y = ukf.x_[1];
+          // predict the target location
+          
 
-    	  double heading_to_target = atan2(target_y - hunter_y, target_x - hunter_x);
+	      target_x = ukf.x_[0];
+	      target_y = ukf.x_[1];
+
+          double target_v = ukf.x_[2];
+          double target_yaw = ukf.x_[3];
+          double target_yawdot = ukf.x_[4];
+
+          double dt = 0.26;
+          double future_x;
+          double future_y;
+
+          if (fabs(target_yawdot) > 0.001) {
+              future_x = target_x + target_v/target_yawdot * ( sin (target_yaw + target_yawdot*dt) - sin(target_yaw));
+              future_y = target_y + target_v/target_yawdot * ( cos (target_yaw) - cos(target_yaw+target_yawdot*dt) );
+          }
+          else {
+              future_x = target_x + target_v*dt*cos(target_yaw);
+              future_y = target_y + target_v*dt*sin(target_yaw);
+          }
+
+    	  double heading_to_target = atan2(future_y - hunter_y, future_x - hunter_x);
     	  while (heading_to_target > M_PI) heading_to_target-=2.*M_PI; 
     	  while (heading_to_target <-M_PI) heading_to_target+=2.*M_PI;
     	  //turn towards the target
