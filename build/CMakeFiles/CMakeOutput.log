@@ -28,33 +28,33 @@ The CXX compiler identification is AppleClang, found in "/Users/huabai/k_filter/
 Determining if the C compiler works passed with the following output:
 Change Dir: /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_56fa6/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_56fa6.dir/build.make CMakeFiles/cmTC_56fa6.dir/build
+Run Build Command:"/usr/local/bin/gmake" "cmTC_bb2ac/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_bb2ac.dir/build.make CMakeFiles/cmTC_bb2ac.dir/build
 gmake[1]: Entering directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_56fa6.dir/testCCompiler.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_56fa6.dir/testCCompiler.c.o   -c /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_56fa6
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56fa6.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_56fa6.dir/testCCompiler.c.o  -o cmTC_56fa6  
+Building C object CMakeFiles/cmTC_bb2ac.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_bb2ac.dir/testCCompiler.c.o   -c /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_bb2ac
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb2ac.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bb2ac.dir/testCCompiler.c.o  -o cmTC_bb2ac  
 gmake[1]: Leaving directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_ddd6f/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_ddd6f.dir/build.make CMakeFiles/cmTC_ddd6f.dir/build
+Run Build Command:"/usr/local/bin/gmake" "cmTC_a34c5/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_a34c5.dir/build.make CMakeFiles/cmTC_a34c5.dir/build
 gmake[1]: Entering directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ddd6f.dir/CMakeCCompilerABI.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_ddd6f.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.7/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_ddd6f
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddd6f.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ddd6f.dir/CMakeCCompilerABI.c.o  -o cmTC_ddd6f   
+Building C object CMakeFiles/cmTC_a34c5.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_a34c5.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_a34c5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a34c5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_a34c5.dir/CMakeCCompilerABI.c.o  -o cmTC_a34c5   
 Apple LLVM version 8.1.0 (clang-802.0.42)
 Target: x86_64-apple-darwin16.6.0
 Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_ddd6f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ddd6f.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_a34c5 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a34c5.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-278.4
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 Library search paths:
@@ -70,19 +70,19 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/local/bin/gmake" "cmTC_ddd6f/fast"]
-  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTC_ddd6f.dir/build.make CMakeFiles/cmTC_ddd6f.dir/build]
+  ignore line: [Run Build Command:"/usr/local/bin/gmake" "cmTC_a34c5/fast"]
+  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTC_a34c5.dir/build.make CMakeFiles/cmTC_a34c5.dir/build]
   ignore line: [gmake[1]: Entering directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_ddd6f.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_ddd6f.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_ddd6f]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddd6f.dir/link.txt --verbose=1]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ddd6f.dir/CMakeCCompilerABI.c.o  -o cmTC_ddd6f   ]
+  ignore line: [Building C object CMakeFiles/cmTC_a34c5.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_a34c5.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_a34c5]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a34c5.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_a34c5.dir/CMakeCCompilerABI.c.o  -o cmTC_a34c5   ]
   ignore line: [Apple LLVM version 8.1.0 (clang-802.0.42)]
   ignore line: [Target: x86_64-apple-darwin16.6.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_ddd6f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ddd6f.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_a34c5 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a34c5.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> lib [to_library]
@@ -93,11 +93,11 @@ Parsed C implicit link information from above output:
     arg [-macosx_version_min] ==> ignore
     arg [10.12.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ddd6f] ==> ignore
+    arg [cmTC_a34c5] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_ddd6f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_a34c5.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lSystem] ==> lib [System]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
   Library search paths: [;/usr/lib;/usr/local/lib]
@@ -118,14 +118,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_f46ea/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_f46ea.dir/build.make CMakeFiles/cmTC_f46ea.dir/build
+Run Build Command:"/usr/local/bin/gmake" "cmTC_5cfb7/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_5cfb7.dir/build.make CMakeFiles/cmTC_5cfb7.dir/build
 gmake[1]: Entering directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f46ea.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_f46ea.dir/feature_tests.c.o   -c /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_f46ea
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f46ea.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f46ea.dir/feature_tests.c.o  -o cmTC_f46ea  
+Building C object CMakeFiles/cmTC_5cfb7.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_5cfb7.dir/feature_tests.c.o   -c /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5cfb7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cfb7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5cfb7.dir/feature_tests.c.o  -o cmTC_5cfb7  
 gmake[1]: Leaving directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp'
 
 
@@ -138,14 +138,14 @@ gmake[1]: Leaving directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_3f71f/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_3f71f.dir/build.make CMakeFiles/cmTC_3f71f.dir/build
+Run Build Command:"/usr/local/bin/gmake" "cmTC_11272/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_11272.dir/build.make CMakeFiles/cmTC_11272.dir/build
 gmake[1]: Entering directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3f71f.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_3f71f.dir/feature_tests.c.o   -c /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3f71f
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f71f.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3f71f.dir/feature_tests.c.o  -o cmTC_3f71f  
+Building C object CMakeFiles/cmTC_11272.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_11272.dir/feature_tests.c.o   -c /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_11272
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11272.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_11272.dir/feature_tests.c.o  -o cmTC_11272  
 gmake[1]: Leaving directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp'
 
 
@@ -158,14 +158,14 @@ gmake[1]: Leaving directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_28266/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_28266.dir/build.make CMakeFiles/cmTC_28266.dir/build
+Run Build Command:"/usr/local/bin/gmake" "cmTC_4635b/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_4635b.dir/build.make CMakeFiles/cmTC_4635b.dir/build
 gmake[1]: Entering directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_28266.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_28266.dir/feature_tests.c.o   -c /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_28266
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28266.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_28266.dir/feature_tests.c.o  -o cmTC_28266  
+Building C object CMakeFiles/cmTC_4635b.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_4635b.dir/feature_tests.c.o   -c /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4635b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4635b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4635b.dir/feature_tests.c.o  -o cmTC_4635b  
 gmake[1]: Leaving directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp'
 
 
@@ -176,33 +176,33 @@ gmake[1]: Leaving directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_ee8b2/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_ee8b2.dir/build.make CMakeFiles/cmTC_ee8b2.dir/build
+Run Build Command:"/usr/local/bin/gmake" "cmTC_68db3/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_68db3.dir/build.make CMakeFiles/cmTC_68db3.dir/build
 gmake[1]: Entering directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ee8b2.dir/testCXXCompiler.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++      -o CMakeFiles/cmTC_ee8b2.dir/testCXXCompiler.cxx.o -c /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_ee8b2
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee8b2.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ee8b2.dir/testCXXCompiler.cxx.o  -o cmTC_ee8b2  
+Building CXX object CMakeFiles/cmTC_68db3.dir/testCXXCompiler.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++      -o CMakeFiles/cmTC_68db3.dir/testCXXCompiler.cxx.o -c /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_68db3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68db3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_68db3.dir/testCXXCompiler.cxx.o  -o cmTC_68db3  
 gmake[1]: Leaving directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_fc46a/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_fc46a.dir/build.make CMakeFiles/cmTC_fc46a.dir/build
+Run Build Command:"/usr/local/bin/gmake" "cmTC_f2ffe/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_f2ffe.dir/build.make CMakeFiles/cmTC_f2ffe.dir/build
 gmake[1]: Entering directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fc46a.dir/CMakeCXXCompilerABI.cpp.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++      -o CMakeFiles/cmTC_fc46a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_fc46a
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc46a.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_fc46a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_fc46a   
+Building CXX object CMakeFiles/cmTC_f2ffe.dir/CMakeCXXCompilerABI.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++      -o CMakeFiles/cmTC_f2ffe.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_f2ffe
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2ffe.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f2ffe.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f2ffe   
 Apple LLVM version 8.1.0 (clang-802.0.42)
 Target: x86_64-apple-darwin16.6.0
 Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_fc46a -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_fc46a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_f2ffe -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f2ffe.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-278.4
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 Library search paths:
@@ -218,19 +218,19 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/local/bin/gmake" "cmTC_fc46a/fast"]
-  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTC_fc46a.dir/build.make CMakeFiles/cmTC_fc46a.dir/build]
+  ignore line: [Run Build Command:"/usr/local/bin/gmake" "cmTC_f2ffe/fast"]
+  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTC_f2ffe.dir/build.make CMakeFiles/cmTC_f2ffe.dir/build]
   ignore line: [gmake[1]: Entering directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_fc46a.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++      -o CMakeFiles/cmTC_fc46a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_fc46a]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc46a.dir/link.txt --verbose=1]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_fc46a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_fc46a   ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_f2ffe.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++      -o CMakeFiles/cmTC_f2ffe.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_f2ffe]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2ffe.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f2ffe.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f2ffe   ]
   ignore line: [Apple LLVM version 8.1.0 (clang-802.0.42)]
   ignore line: [Target: x86_64-apple-darwin16.6.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_fc46a -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_fc46a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_f2ffe -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f2ffe.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> lib [to_library]
@@ -241,11 +241,11 @@ Parsed CXX implicit link information from above output:
     arg [-macosx_version_min] ==> ignore
     arg [10.12.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_fc46a] ==> ignore
+    arg [cmTC_f2ffe] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_fc46a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_f2ffe.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-lSystem] ==> lib [System]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
@@ -267,14 +267,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_d88c6/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_d88c6.dir/build.make CMakeFiles/cmTC_d88c6.dir/build
+Run Build Command:"/usr/local/bin/gmake" "cmTC_d744f/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_d744f.dir/build.make CMakeFiles/cmTC_d744f.dir/build
 gmake[1]: Entering directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d88c6.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_d88c6.dir/feature_tests.cxx.o -c /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d88c6
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d88c6.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d88c6.dir/feature_tests.cxx.o  -o cmTC_d88c6  
+Building CXX object CMakeFiles/cmTC_d744f.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_d744f.dir/feature_tests.cxx.o -c /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d744f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d744f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d744f.dir/feature_tests.cxx.o  -o cmTC_d744f  
 gmake[1]: Leaving directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp'
 
 
@@ -340,14 +340,14 @@ gmake[1]: Leaving directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_39662/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_39662.dir/build.make CMakeFiles/cmTC_39662.dir/build
+Run Build Command:"/usr/local/bin/gmake" "cmTC_6b828/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_6b828.dir/build.make CMakeFiles/cmTC_6b828.dir/build
 gmake[1]: Entering directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_39662.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_39662.dir/feature_tests.cxx.o -c /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_39662
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39662.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_39662.dir/feature_tests.cxx.o  -o cmTC_39662  
+Building CXX object CMakeFiles/cmTC_6b828.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_6b828.dir/feature_tests.cxx.o -c /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6b828
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b828.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6b828.dir/feature_tests.cxx.o  -o cmTC_6b828  
 gmake[1]: Leaving directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp'
 
 
@@ -413,14 +413,14 @@ gmake[1]: Leaving directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_27657/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_27657.dir/build.make CMakeFiles/cmTC_27657.dir/build
+Run Build Command:"/usr/local/bin/gmake" "cmTC_584d4/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_584d4.dir/build.make CMakeFiles/cmTC_584d4.dir/build
 gmake[1]: Entering directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_27657.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_27657.dir/feature_tests.cxx.o -c /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_27657
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27657.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_27657.dir/feature_tests.cxx.o  -o cmTC_27657  
+Building CXX object CMakeFiles/cmTC_584d4.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_584d4.dir/feature_tests.cxx.o -c /Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_584d4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_584d4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_584d4.dir/feature_tests.cxx.o  -o cmTC_584d4  
 gmake[1]: Leaving directory '/Users/huabai/k_filter/submit/CarND-Catch-Run-Away-Car-UKF/build/CMakeFiles/CMakeTmp'
 
 
